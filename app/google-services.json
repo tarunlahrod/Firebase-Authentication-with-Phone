@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "580089919599",
+    "firebase_url": "https://fir-wphone-3b45a.firebaseio.com",
+    "project_id": "fir-wphone-3b45a",
+    "storage_bucket": "fir-wphone-3b45a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580089919599:android:2ea81c49224e6df0",
+        "android_client_info": {
+          "package_name": "com.example.acer.firebasewphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580089919599-ffpgjbahlthuqk4labiv0shmmaal1kb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acer.firebasewphone",
+            "certificate_hash": "69743d78fd55dbcb40a9cd79749f99b037a50de0"
+          }
+        },
+        {
+          "client_id": "580089919599-ojkouk39hf67nqs6gid4ip4vpsu9710d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsH7xtc8L1eIpTgZNdggeeOeHl3pTr7c4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580089919599-ojkouk39hf67nqs6gid4ip4vpsu9710d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
