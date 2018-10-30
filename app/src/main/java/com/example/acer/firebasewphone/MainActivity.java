@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         if(code.isEmpty()){
             Toast.makeText(this,"Enter verification code",Toast.LENGTH_SHORT).show();
             editTextVerificationCode.requestFocus();
+            return;
         }
         PhoneAuthCredential credential = PhoneAuthProvider.getCredential(codeSent, code);
         signInWithPhoneAuthCredential(credential);
@@ -82,11 +83,13 @@ public class MainActivity extends AppCompatActivity {
         if(phoneNumber.isEmpty()){
             Toast.makeText(this,"Enter phone number",Toast.LENGTH_SHORT).show();
             editTextphone.requestFocus();
+            return;
         }
 
         if(phoneNumber.length() < 10){
             Toast.makeText(this,"Enter correct phone number",Toast.LENGTH_SHORT).show();
             editTextphone.requestFocus();
+            return;
         }
 
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
