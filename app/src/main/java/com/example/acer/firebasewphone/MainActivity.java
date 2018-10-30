@@ -1,5 +1,6 @@
 package com.example.acer.firebasewphone;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -66,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             //here we can open a new activity
+                            Intent i = new Intent(MainActivity.this, MainPage.class);
+                            startActivity(i);
+                            finish();
+
                             Toast.makeText(getApplicationContext(),"Login successful", Toast.LENGTH_SHORT).show();
                         } else {
                             if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
