@@ -1,3 +1,10 @@
-# Firebase-Authentication-with-Phone
-Firebase Authentication with Phone.
+# Firebase Authentication with Phone
+#### This repo contains the code of an android application which allows **FIREBASE** authentication through phone number.
+
 Code for authenticating a user using their phone number.
+Check how to do this [here](https://firebase.google.com/docs/auth/android/phone-auth)
+
+### Check screenshots:
+#### User login (mainActivity)
+
+ ![Alt Text](https://github.com/tarunlahrod/Firebase-Authentication-with-Phone/blob/master/screenshots/IMG_20181203_201029.jpg)
